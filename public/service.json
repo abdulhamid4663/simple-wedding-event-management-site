@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Floral Arrangements",
+    "image": "https://i.ibb.co/WfdDcss/flowers.png",
+    "description": "Our exquisite floral arrangements add a touch of romance to your special day. From centerpieces to bouquets, we craft stunning floral designs that will leave a lasting impression on your guests."
+  },
+  {
+    "id": 2,
+    "name": "Gourmet Catering",
+    "image": "https://i.ibb.co/BZ12b12/meal.png",
+    "description": "Indulge your guests with a culinary experience they won't forget. Our gourmet catering service offers a delectable menu of dishes tailored to your tastes, ensuring your wedding reception is a gastronomic delight."
+  },
+  {
+    "id": 3,
+    "name": "Professional Photography",
+    "image": "https://i.ibb.co/9twj065/image-gallery.png",
+    "description": "Capture every precious moment with our expert photographers. From candid shots to posed portraits, our photography service ensures that your wedding memories are beautifully preserved."
+  },
+  {
+    "id": 4,
+    "name": "Live Music Ensemble",
+    "image": "https://i.ibb.co/RDypb36/musical-note.png",
+    "description": "Set the mood with live music. Our talented ensemble of musicians will serenade your guests with melodies that enhance the ambiance of your wedding ceremony and reception."
+  },
+  {
+    "id": 5,
+    "name": "Custom Wedding Cakes",
+    "image": "https://i.ibb.co/BGr13fS/piece-of-cake.png",
+    "description": "Delight your taste buds with our custom wedding cakes. Our skilled bakers will create a one-of-a-kind masterpiece that not only looks stunning but also tastes divine."
+  },
+  {
+    "id": 6,
+    "name": "Luxury Transportation",
+    "image": "https://i.ibb.co/Fbqt72S/limousine.png",
+    "description": "Arrive in style with our luxury transportation service. Choose from a fleet of elegant vehicles to transport the bridal party and guests, making a grand entrance and exit."
+  }
+]
