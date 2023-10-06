@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <div className="bg-orange-400 text-center">
-            <div className="container mx-auto py-2">
-                <div className="flex items-center justify-between gap-6">
+            <div className="container mx-auto py-4 lg:py-2">
+                <div className="flex items-center justify-center flex-wrap lg:justify-between gap-6">
                     <div className="flex items-center gap-6">
                         <div className="flex text-base text-white items-center gap-1">
                             <HiOutlineMail className="text-xl" />
