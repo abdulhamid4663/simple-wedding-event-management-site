@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 import { useEffect } from 'react';
 
 const Service = ({ service }) => {
-    const { name, thumbnail, description } = service;
+    const { id, name, thumbnail, description } = service;
 
     useEffect( () => {
         Aos.init();
@@ -18,7 +18,7 @@ const Service = ({ service }) => {
                 <BsDashLg className='text-4xl text-orange-400 font-extrabold mx-4'/> <img src={thumbnail} alt={`image of ${name}`} className="w-10 text-white" /> <BsDashLg className='text-4xl text-orange-400 font-extrabold mx-4'/>
             </figure>
             <div className="flex flex-col gap-4 items-center text-center mt-6">
-                <Link to="/"><h2 className="card-title font-semibold hover:text-orange-400 duration-200">{name}</h2></Link>
+                <Link to={`/service/${id}`}><h2 className="card-title font-semibold hover:text-orange-400 duration-200">{name}</h2></Link>
                 <p className='text-base font-normal px-2 text-slate-500'>{description}</p>
             </div>
         </div>

@@ -1,5 +1,4 @@
 import { BsDashLg } from "react-icons/bs";
-import './AwesomeWork.css';
 
 const AwesomeWork = () => {
 
