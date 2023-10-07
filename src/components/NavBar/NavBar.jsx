@@ -45,13 +45,21 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                <div className="hidden md:block">
+                    {
+                        user &&
+                        <div className="mr-2">
+                            <p>{user.email}</p>
+                        </div>
+                    }
+                </div>
                 {
                     user
                         ?
-                        <button onClick={handleLogout} className="btn bg-orange-400 text-white font-bold">Login</button>
+                        <button onClick={handleLogout} className="btn bg-orange-400 text-white font-bold normal-case text-lg">Logout</button>
                         :
                         <Link to="/login">
-                            <button className="btn bg-orange-400 text-white font-bold">Login</button>
+                            <button className="btn bg-orange-400 text-white font-bold normal-case text-lg">Login</button>
                         </Link>
                 }
             </div>
