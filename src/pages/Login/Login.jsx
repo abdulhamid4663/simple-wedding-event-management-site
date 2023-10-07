@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
 import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
@@ -8,6 +8,8 @@ import { toast } from "react-toastify";
 
 const Login = () => {
     const { loginUser, googleLogin } = useContext(AuthContext)
+    const location = useLocation();
+    const navigate = useNavigate();
 
     const handleOnSubmit = e => {
         e.preventDefault();
@@ -27,10 +29,12 @@ const Login = () => {
     const handleGoogleLogin = () => {
         googleLogin()
             .then(() => {
-                toast.success("User logged in with Google Successfully")
+                toast.success("User logged in with Google Successfully");
+
+                navigate(location?.state ? location.state : "/");
             })
             .catch(error => {
-                toast.error(error.message)
+                toast.error(error.message);
             })
     }
 

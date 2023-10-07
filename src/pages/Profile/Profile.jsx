@@ -31,11 +31,18 @@ const Profile = () => {
                         <div className="text-center">
                             <h1 className="text-2xl font-semibold mb-5">Profile Image</h1>
                             {
-                                user?.photoURL ? <div className="w-1/2 mx-auto border-2 border-[#FFC4AE] p-6"><img src={`${user.photoURL}`} alt="" className="w-full h-full"/></div> : <img src="https://i.ibb.co/tMy0bd5/pngwing-com.png" alt="" className="w-1/2 mx-auto border-2 border-[#FFC4AE] p-6" />
+                                user?.photoURL ?
+                                    <div className="w-3/4 xl:w-1/2 mx-auto border-2 border-[#FFC4AE] p-3 lg:p-6">
+                                        <img src={`${user.photoURL}`} alt="" className="w-full h-full" />
+                                    </div>
+                                    :
+                                    <div className="w-3/4 xl:w-1/2 mx-auto border-2 border-[#FFC4AE] p-3 lg:p-6">
+                                        <img src="https://i.ibb.co/tMy0bd5/pngwing-com.png" alt="" className="w-full h-full" />
+                                    </div>
                             }
                         </div>
                         <div>
-                            <div className="card flex-shrink-0 w-full max-w-xl">
+                            <div className="card flex-shrink-0 mx-auto lg:mx-0 w-full max-w-xl">
                                 <form onSubmit={handleOnSubmit} className="card-body">
                                     <div className="form-control">
                                         <label className="label">

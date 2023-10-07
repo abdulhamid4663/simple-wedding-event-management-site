@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
 import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
     const { createUser, googleLogin } = useContext(AuthContext)
+    const navigate = useNavigate()
 
     const handleOnSubmit = e => {
         e.preventDefault()
@@ -32,6 +33,8 @@ const Register = () => {
         createUser(email, password)
             .then(() => {
                 toast.success("User created Successfully");
+
+                navigate("/")
             })
             .catch(error => {
                 toast.error(error.message)

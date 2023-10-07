@@ -48,7 +48,7 @@ const About = () => {
                         Thank you for considering <Link to="/contact" className="text-orange-400 font-bold">Mabrook</Link> for your wedding services. We look forward to being a part of your special day and making it a truly magical experience.
                     </p>
                     <p>
-                        <Link to="/" className="text-orange-400 font-bold">Contact us</Link> today to discuss how we can make your wedding dreams come true.
+                        <Link to="/contact" className="text-orange-400 font-bold">Contact us</Link> today to discuss how we can make your wedding dreams come true.
 
                     </p>
                 </div>

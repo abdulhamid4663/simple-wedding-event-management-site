@@ -8,11 +8,14 @@ import About from '../pages/About/About';
 import Contact from '../pages/Contact/Contact';
 import PrivateRoutes from './PrvateRoutes/PrivateRoutes';
 import Profile from '../pages/Profile/Profile';
+import Gallery from '../pages/Gallery/Gallery';
+import ErrorPage from '../pages/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <MainLayout />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/",
@@ -28,7 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/gallery",
-                element: <div></div>
+                element: <PrivateRoutes><Gallery /></PrivateRoutes>
             },
             {
                 path: "/profile",
