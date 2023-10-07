@@ -32,7 +32,7 @@ const Contact = () => {
                     <div className="text-center">
                         <HiLocationMarker className="text-4xl mx-auto mb-2" />
                         <h1 className="text-2xl font-semibold text-slate-800 mb-3">Address:</h1>
-                        <h2 className="text-orange-400 font-bold text-xl">New York, NY</h2>
+                        <h2 className="text-orange-400 font-bold text-xl">Dhaka, Bangladesh</h2>
                     </div>
                 </div>
             </div>
