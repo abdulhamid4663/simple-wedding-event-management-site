@@ -13,7 +13,7 @@ const Service = ({ service }) => {
     }, [])
 
     return (
-        <div data-Aos="fade-up" className="card bg-[#fffcf9] p-6">
+        <div data-aos="fade-up" className="card bg-[#fffcf9] p-6">
             <figure>
                 <BsDashLg className='text-4xl text-orange-400 font-extrabold mx-4'/> <img src={image} alt={`image of ${name}`} className="w-10 text-white" /> <BsDashLg className='text-4xl text-orange-400 font-extrabold mx-4'/>
             </figure>
