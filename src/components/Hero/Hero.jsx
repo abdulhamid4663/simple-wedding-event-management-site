@@ -11,7 +11,7 @@ const Hero = () => {
                         <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold text-white">Let&apos;s Create Your Perfect <span className="text-orange-400">Wedding</span></h1>
                         <p className="text-xl font-medium max-w-3xl mx-auto text-white mt-4 mb-6">Welcome and open yourself to your truest love this year with us! With the Release Process.</p>
                         <Link to="/">
-                            <button className="btn border-none rounded-none text-base lg:text-lg font-bold normal-case text-white bg-orange-400">Discover More</button>
+                            <button className="btn border-none rounded-none text-base lg:text-lg font-bold normal-case text-white bg-orange-400 rounded-tl-xl rounded-br-xl">Discover More</button>
                         </Link>
                     </div>
                 </div>

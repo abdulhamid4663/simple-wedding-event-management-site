@@ -2,37 +2,49 @@
   {
     "id": 1,
     "name": "Elegant Floral Arrangements",
-    "image": "https://i.ibb.co/WfdDcss/flowers.png",
-    "description": "Our exquisite floral arrangements add a touch of romance to your special day. From centerpieces to bouquets, we craft stunning floral designs that will leave a lasting impression on your guests."
+    "thumbnail": "https://i.ibb.co/WfdDcss/flowers.png",
+    "image": "https://i.ibb.co/L58Ns8s/DIY-Wedding-Centerpieces-Flower-Ideas.webp",
+    "description": "Our exquisite floral arrangements add a touch of romance to your special day. From centerpieces to bouquets, we craft stunning floral designs that will leave a lasting impression on your guests.",
+    "details": "Our Elegant Floral Arrangements service is designed to make your wedding day even more special. We meticulously select the finest flowers and create stunning arrangements that will not only enhance the ambiance of your wedding venue but also leave a lasting impression on your guests. From enchanting centerpieces to exquisite bouquets, our floral designs are crafted with passion and expertise. Let us add a touch of romance and natural beauty to your big day."
   },
   {
     "id": 2,
     "name": "Gourmet Catering",
-    "image": "https://i.ibb.co/BZ12b12/meal.png",
-    "description": "Indulge your guests with a culinary experience they won't forget. Our gourmet catering service offers a delectable menu of dishes tailored to your tastes, ensuring your wedding reception is a gastronomic delight."
+    "thumbnail": "https://i.ibb.co/BZ12b12/meal.png",
+    "image": "https://i.ibb.co/6nRtjP7/wedding-catering.jpg",
+    "description": "Indulge your guests with a culinary experience they won't forget. Our gourmet catering service offers a delectable menu of dishes tailored to your tastes, ensuring your wedding reception is a gastronomic delight.",
+    "details": "Our Gourmet Catering service is all about creating a memorable culinary experience for your wedding guests. We believe that exceptional food is an essential part of any celebration, and we take pride in offering a diverse and delectable menu tailored to your unique tastes. Our team of skilled chefs will prepare exquisite dishes that will tantalize your palate and leave your guests raving about the food long after the event. From appetizers to desserts, we ensure that your wedding reception is a gastronomic delight."
   },
   {
     "id": 3,
     "name": "Professional Photography",
-    "image": "https://i.ibb.co/9twj065/image-gallery.png",
-    "description": "Capture every precious moment with our expert photographers. From candid shots to posed portraits, our photography service ensures that your wedding memories are beautifully preserved."
+    "thumbnail": "https://i.ibb.co/9twj065/image-gallery.png",
+    "image": "https://i.ibb.co/q1tD3cr/3-20220505144402-25740321-xlarge.jpg",
+    "description": "Capture every precious moment with our expert photographers. From candid shots to posed portraits, our photography service ensures that your wedding memories are beautifully preserved.",
+    "details": "Our Professional Photography service is dedicated to capturing the magic of your wedding day. Our team of experienced photographers is passionate about documenting every precious moment, from the joyous candid shots to the elegant posed portraits. We understand the importance of preserving the memories of your special day, and we do so with artistry and attention to detail. Trust us to create stunning photographs that you will cherish for a lifetime."
   },
   {
     "id": 4,
     "name": "Live Music Ensemble",
-    "image": "https://i.ibb.co/RDypb36/musical-note.png",
-    "description": "Set the mood with live music. Our talented ensemble of musicians will serenade your guests with melodies that enhance the ambiance of your wedding ceremony and reception."
+    "thumbnail": "https://i.ibb.co/RDypb36/musical-note.png",
+    "image": "https://i.ibb.co/qxzfvsQ/Dancing-at-Wedding-with-Live-Band.webp",
+    "description": "Set the mood with live music. Our talented ensemble of musicians will serenade your guests with melodies that enhance the ambiance of your wedding ceremony and reception.",
+    "details": "Our Live Music Ensemble is here to set the perfect mood for your wedding day. Our talented musicians are dedicated to serenading your guests with beautiful melodies that will enhance the ambiance of both your wedding ceremony and reception. Whether you prefer classical tunes or contemporary hits, our ensemble can tailor the music to your preferences, ensuring that every note resonates with the love and joy of your special day."
   },
   {
     "id": 5,
     "name": "Custom Wedding Cakes",
-    "image": "https://i.ibb.co/BGr13fS/piece-of-cake.png",
-    "description": "Delight your taste buds with our custom wedding cakes. Our skilled bakers will create a one-of-a-kind masterpiece that not only looks stunning but also tastes divine."
+    "thumbnail": "https://i.ibb.co/BGr13fS/piece-of-cake.png",
+    "image": "https://i.ibb.co/dGcSdKD/custom-wedding-cakes-order-save-the-date.webp",
+    "description": "Delight your taste buds with our custom wedding cakes. Our skilled bakers will create a one-of-a-kind masterpiece that not only looks stunning but also tastes divine.",
+    "details": "Our Custom Wedding Cakes are designed to delight your taste buds and leave a lasting impression. Our skilled bakers are artists in the kitchen, and they take pride in creating one-of-a-kind cake masterpieces that not only look stunning but also taste divine. We work closely with you to design a cake that reflects your style and complements your wedding theme. From elegant designs to intricate flavors, our custom wedding cakes are the perfect sweet finale to your special day."
   },
   {
     "id": 6,
     "name": "Luxury Transportation",
-    "image": "https://i.ibb.co/Fbqt72S/limousine.png",
-    "description": "Arrive in style with our luxury transportation service. Choose from a fleet of elegant vehicles to transport the bridal party and guests, making a grand entrance and exit."
+    "thumbnail": "https://i.ibb.co/Fbqt72S/limousine.png",
+    "image": "https://i.ibb.co/4gH0rJV/Limo-White2.webp",
+    "description": "Arrive in style with our luxury transportation service. Choose from a fleet of elegant vehicles to transport the bridal party and guests, making a grand entrance and exit.",
+    "details": "Arrive in style on your wedding day with our Luxury Transportation service. We offer a fleet of elegant vehicles that will not only transport the bridal party in comfort and luxury but also make a grand entrance and exit that your guests will remember. Whether you choose a classic limousine or a stylish car, our transportation service ensures that you make a memorable arrival and departure on your special day."
   }
 ]
