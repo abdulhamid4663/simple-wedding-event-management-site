@@ -7,6 +7,7 @@ import ServiceDetails from '../pages/ServiceDetails/ServiceDetails';
 import About from '../pages/About/About';
 import Contact from '../pages/Contact/Contact';
 import PrivateRoutes from './PrvateRoutes/PrivateRoutes';
+import Profile from '../pages/Profile/Profile';
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: "/gallery",
                 element: <div></div>
+            },
+            {
+                path: "/profile",
+                element: <PrivateRoutes><Profile /></PrivateRoutes>
             },
             {
                 path: "/login",

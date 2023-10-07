@@ -5,8 +5,12 @@ import { Navigate } from "react-router-dom";
 
 
 const PrivateRoutes = ({ children }) => {
-    const { user } = useContext(AuthContext);
+    const { user, loading } = useContext(AuthContext);
 
+    if(loading) {
+        return;
+    }
+    
     if (user) {
         return children;
     }
