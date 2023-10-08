@@ -6,15 +6,19 @@ import { AuthContext } from "../../context/AuthProvider/AuthProvider";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from "react-helmet-async";
+// import { getAuth, updateProfile } from "firebase/auth";
+// import app from "../../config/firebase.config";
+// const auth = getAuth(app);
 
 
 const Register = () => {
-    const { createUser, googleLogin } = useContext(AuthContext)
+    const { createUser, googleLogin, userUpdateProfile } = useContext(AuthContext)
     const navigate = useNavigate()
 
     const handleOnSubmit = e => {
         e.preventDefault()
         const form = new FormData(e.currentTarget);
+        const name = form.get("name");
         const email = form.get("email");
         const password = form.get("password");
 
@@ -33,6 +37,11 @@ const Register = () => {
 
         createUser(email, password)
             .then(() => {
+                userUpdateProfile(name)
+                .then( () => {
+
+                })
+                
                 toast.success("User created Successfully");
 
                 navigate("/")

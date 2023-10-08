@@ -17,13 +17,15 @@ const Login = () => {
         const form = new FormData(e.currentTarget)
         const email = form.get("email")
         const password = form.get("password")
-        console.log(email, password)
+        
         loginUser(email, password)
             .then(() => {
                 toast.success("User Logged in Successfully");
+
+                navigate(location?.state ? location.state : "/");
             })
-            .catch(error => {
-                toast.error(error.message)
+            .catch( () => {
+                toast.error(" password or email is not correct")
             })
     }
 
@@ -34,8 +36,8 @@ const Login = () => {
 
                 navigate(location?.state ? location.state : "/");
             })
-            .catch(error => {
-                toast.error(error.message);
+            .catch( () => {
+                toast.error(" password or email is not correct");
             })
     }
 
