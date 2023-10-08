@@ -17,7 +17,7 @@ const Login = () => {
         const form = new FormData(e.currentTarget)
         const email = form.get("email")
         const password = form.get("password")
-        
+
         loginUser(email, password)
             .then(() => {
                 toast.success("User Logged in Successfully");
@@ -47,7 +47,7 @@ const Login = () => {
                 <title>Mabrook || Login</title>
             </Helmet>
             <NavBar />
-            <div className="flex min-h-[80vh] justify-center items-center">
+            <div className="flex min-h-[80vh] justify-center items-center my-24 px-4">
                 <div className="card flex-shrink-0 mx-auto w-full max-w-md border-2 border-[#FFC4AE]">
                     <div className="card-body">
                         <div>

@@ -67,7 +67,7 @@ const Register = () => {
                 <title>Mabrook || Register</title>
             </Helmet>
             <NavBar />
-            <div className="flex min-h-[80vh] justify-center items-center">
+            <div className="flex min-h-[80vh] justify-center items-center my-24 px-4">
                 <div className="card flex-shrink-0 mx-auto w-full max-w-md border-2 border-[#FFC4AE] my-24">
                     <div className="card-body">
                         <div>
