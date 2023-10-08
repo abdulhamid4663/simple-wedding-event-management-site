@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
 import { BsDashLg } from "react-icons/bs";
+import { Helmet } from "react-helmet-async";
 
 
 const ServiceDetails = () => {
@@ -15,6 +16,9 @@ const ServiceDetails = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Mabrook || {name}</title>
+            </Helmet>
             <NavBar />
             <div className="container mx-auto px-4 mb-32">
                 <div className="mt-16 mb-12">

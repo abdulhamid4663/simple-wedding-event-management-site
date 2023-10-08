@@ -1,11 +1,15 @@
 import { BsDashLg } from "react-icons/bs";
 import NavBar from "../../components/NavBar/NavBar";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 
 const About = () => {
     return (
         <div>
+            <Helmet>
+                <title>Mabrook || About</title>
+            </Helmet>
             <NavBar />
             <div className="container mx-auto px-4">
                 <div className="mt-16 mb-12">

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
 import { BsDashLg } from "react-icons/bs";
+import { Helmet } from "react-helmet-async";
 
 
 const Profile = () => {
@@ -14,6 +15,9 @@ const Profile = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Mabrook || Profile</title>
+            </Helmet>
             <NavBar />
             <div className="container mx-auto px-4 mb-52">
                 <div className="mt-16 mb-12">

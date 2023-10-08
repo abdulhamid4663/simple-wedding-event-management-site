@@ -4,6 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet-async";
 
 
 const Login = () => {
@@ -40,6 +41,9 @@ const Login = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Mabrook || Login</title>
+            </Helmet>
             <NavBar />
             <div className="flex min-h-[80vh] justify-center items-center">
                 <div className="card flex-shrink-0 mx-auto w-full max-w-md border-2 border-[#FFC4AE]">

@@ -1,10 +1,14 @@
 import { BsDashLg } from "react-icons/bs";
 import NavBar from "../../components/NavBar/NavBar";
+import { Helmet } from "react-helmet-async";
 
 
 const Gallery = () => {
     return (
         <div>
+            <Helmet>
+                <title>Mabrook || Gallery</title>
+            </Helmet>
             <NavBar />
             <div className="container mx-auto px-4">
                 <div className="mt-16 mb-12">
