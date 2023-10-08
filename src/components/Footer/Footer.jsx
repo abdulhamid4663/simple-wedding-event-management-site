@@ -1,8 +1,12 @@
+import { useContext } from "react";
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../context/AuthProvider/AuthProvider";
 
 
 const Footer = () => {
+    const { user } = useContext(AuthContext);
+
     return (
         <div className="container mx-auto">
             <footer className="py-4 px-4 bg-[#FFF2ED]">
@@ -16,11 +20,16 @@ const Footer = () => {
                         </div>
                     </aside>
                     <nav className="flex flex-col">
-                        <header className="text-base mb-2 lg:text-xl font-bold text-black uppercase">Services</header>
-                        <Link className="link link-hover max-w-fit">Branding</Link>
-                        <Link className="link link-hover max-w-fit">Design</Link>
-                        <Link className="link link-hover max-w-fit">Marketing</Link>
-                        <Link className="link link-hover max-w-fit">Advertisement</Link>
+                        <header className="text-base mb-2 lg:text-xl font-bold text-black uppercase">Pages</header>
+                        <Link to="/" className="link link-hover max-w-fit">Home</Link>
+                        <Link to="/about" className="link link-hover max-w-fit">About us</Link>
+                        <Link to="/contact" className="link link-hover max-w-fit">Contact</Link>
+                        {
+                            user && <>
+                                <Link to="/gallery" className="link link-hover max-w-fit">Gallery</Link>
+                                <Link to="/profile" className="link link-hover max-w-fit">Profile</Link>
+                            </>
+                        }
                     </nav>
                     <nav className="flex flex-col lg:col-span-2 xl:col-span-1">
                         <header className="text-base mb-2 lg:text-xl font-bold text-black uppercase">Contact</header>
