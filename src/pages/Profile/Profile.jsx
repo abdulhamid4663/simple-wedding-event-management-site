@@ -91,10 +91,11 @@ const Profile = () => {
                         </div>
                         <div>
                             <div className="card flex-shrink-0 mx-auto lg:mx-0 w-full max-w-xl">
+                                <h1 className="text-2xl font-semibold mb-5">Profile Name: {user.displayName}</h1>
                                 <form onSubmit={handleOnSubmit} className="card-body">
                                     <div className="form-control">
                                         <label className="label">
-                                            <span className="label-text">Name</span>
+                                            <span className="label-text">New Name</span>
                                         </label>
                                         <input type="text" name="name" placeholder="name" className="input input-bordered" />
                                     </div>
